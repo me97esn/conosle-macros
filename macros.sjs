@@ -39,6 +39,10 @@ macro => {
   }
 }
 
+macro json {
+  rule { $x } => { JSON.stringify($x) }
+}
+export json
 export =>
 export hello
 export nullity
