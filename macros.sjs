@@ -39,9 +39,15 @@ macro => {
   }
 }
 
+macro Log {
+  rule { $x } => { console.log($x) }
+}
+
 macro json {
   rule { $x } => { JSON.stringify($x) }
 }
+
+export Log
 export json
 export =>
 export hello
