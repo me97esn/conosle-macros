@@ -1,10 +1,25 @@
 {
-  "name": "conosle-macros",
-  "version": "0.0.1",
-  "description": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "conosle-macros",
+    "description": "Some sweet-macros for sweet.js",
+    "version": "0.0.0",
+    "homepage": "https://github.com/me97esn/conosle-macros",
+    "author": "Emil Stenberg <esandin@gmail.com> (http://github.com/me97esn)",
+    "licenses": [
+        {
+            "type": "BSD",
+            "url": "https://github.com/jrburke/amdefine/blob/master/LICENSE"
+        },
+        {
+            "type": "MIT",
+            "url": "https://github.com/jrburke/amdefine/blob/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/me97esn/conosle-macros"
+    },
+    "main": "",
+    "engines": {
+        "node": ">=0.4.2"
+    }
 }
