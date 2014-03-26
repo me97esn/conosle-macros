@@ -4,27 +4,23 @@ A collection of sweet.js macros
 
 ---
 
-## asJSON
+## as
 Simple syntax for using JSON.parse().
 
 **Usage**
 
 ``` javascript
-var obj = {
-    a: 'property',
-    here: '!'
-};
-
-obj asJSON;
+obj as json;
+str as string;
+'1' as int
+'0.2' as float;
 ```
 
 **Output**
 
 ``` javascript
-var obj = {
-    a: 'property',
-    here: '!'
-};
-
 JSON.parse(obj);
+JSON.stringify(str);
+Number.parseInt('1');
+Number.parseFloat('0.2');
 ```
