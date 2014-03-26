@@ -19,8 +19,8 @@ str as string;
 **Output**
 
 ``` javascript
-JSON.parse(obj);
-JSON.stringify(str);
+JSON.parse(str);
+JSON.stringify(obj);
 Number.parseInt('1');
 Number.parseFloat('0.2');
 ```
