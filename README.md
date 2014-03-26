@@ -5,7 +5,7 @@ A collection of sweet.js macros
 ---
 
 ## as
-Simple syntax for using JSON.parse().
+Convert objects with an easier syntax.
 
 **Usage**
 
