@@ -10,8 +10,8 @@ Convert objects with an easier syntax.
 **Usage**
 
 ``` javascript
-obj as json;
-str as string;
+str as json;
+obj as string;
 '1' as int
 '0.2' as float;
 ```
