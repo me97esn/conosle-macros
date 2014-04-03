@@ -1,25 +1,46 @@
 {
-    "name": "conosle-macros",
-    "description": "Some sweet-macros for sweet.js",
-    "version": "0.0.0",
-    "homepage": "https://github.com/me97esn/conosle-macros",
-    "author": "Emil Stenberg <esandin@gmail.com> (http://github.com/me97esn)",
-    "licenses": [
-        {
-            "type": "BSD",
-            "url": "https://github.com/jrburke/amdefine/blob/master/LICENSE"
-        },
-        {
-            "type": "MIT",
-            "url": "https://github.com/jrburke/amdefine/blob/master/LICENSE"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/me97esn/conosle-macros"
+  "name": "conosle-macros",
+  "description": "Some sweet-macros for sweet.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/me97esn/conosle-macros",
+  "author": {
+    "name": "Emil Stenberg",
+    "email": "esandin@gmail.com",
+    "url": "http://github.com/me97esn"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/jrburke/amdefine/blob/master/LICENSE"
     },
-    "main": "",
-    "engines": {
-        "node": ">=0.4.2"
+    {
+      "type": "MIT",
+      "url": "https://github.com/jrburke/amdefine/blob/master/LICENSE"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/me97esn/conosle-macros"
+  },
+  "main": "",
+  "engines": {
+    "node": ">=0.4.2"
+  },
+  "readme": "# conosle-macros\n\nA collection of sweet.js macros\n\n---\n\n## as\nConvert objects with an easier syntax.\n\n**Usage**\n\n``` javascript\nstr as json;\nobj as string;\n'1' as int\n'0.2' as float;\n```\n\n**Output**\n\n``` javascript\nJSON.parse(str);\nJSON.stringify(obj);\nNumber.parseInt('1');\nNumber.parseFloat('0.2');\n```",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/me97esn/conosle-macros/issues"
+  },
+  "_id": "conosle-macros@0.0.0",
+  "dist": {
+    "shasum": "08d5f9796de033df76979cb79e923a1be34842f3"
+  },
+  "_resolved": "git+https://github.com/me97esn/conosle-macros.git#28d6677c7977754cd093333001185b3d456e98e2",
+  "_from": "git+https://github.com/me97esn/conosle-macros.git",
+  "dependencies": {
+    "grunt": "~0.4.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.4.0"
+  }
 }

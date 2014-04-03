@@ -16,3 +16,4 @@ macro nullity {
         $head && null_helper ($head) ($rest ...)
     }
 }
+export nullity
