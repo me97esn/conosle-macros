@@ -4,3 +4,4 @@
 	rule infix { $x | int } => { Number.parseInt($x) }
 	rule infix { $x | float } => { Number.parseFloat($x) }
 }
+export as
