@@ -4,6 +4,7 @@ macro as {
 	rule infix { $x | int } => { Number.parseInt($x) }
 	rule infix { $x | float } => { Number.parseFloat($x) }
 }
+export as
 macro => {
   rule infix { ($value (,) ...) | {$body ...} } => {
     function($value (,) ...) {
