@@ -12,7 +12,7 @@ describe('as', function() {
       };
 
       (obj as string).should.equal(JSON.stringify(obj));
-
+      (obj.foo as string).should.equal(JSON.stringify(obj.foo));
     });
   })
 });
