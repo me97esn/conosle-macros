@@ -11,7 +11,7 @@ module.exports = function(grunt) {
                 sourceRoot: '',
                 readableNames: true,
                 modules: [
-                    
+                    '/Users/emilsandin/Documents/workspace/git/conosle-macros/dist/macros.js'
                 ]
             },
             dist: {
